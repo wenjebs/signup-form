@@ -103,6 +103,7 @@ h1 {
 /*RIGHT-SIDE*/
 .right-side {
     background-color: #fbfbfa;
+    flex: 3;
 }
 .italic {
     font-style: italic;
