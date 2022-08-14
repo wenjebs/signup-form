@@ -96,12 +96,44 @@ ul {
 
 h1 {
     color: white;
+    font-family: 'Norse Bold';
 }
+/*RIGHT-SIDE*/
+.right-side {
+    background-color: #fbfbfa;
+}
+.italic {
+    font-style: italic;
+}
+/*PARA ABOVE FORM*/
+.first-para,
+.second-para,
+.third-para {
+    font-weight: 600;
+    font-size: x-large;
+    max-width: 750px;
+    padding-left: 2em;
+    padding-right: 8em;
+}
+.first-para {
+    padding-top: 76px;
+    padding-bottom: 0;
+}
+.second-para {
+    padding-top: 0;
+    padding-bottom: 2em;
+}
+
+.third-para {
+    padding-bottom: 2em;
+}
+
 
 /*FORM CONTAINER*/
 .form {
-    border: 2px solid black;
     padding: 25px;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgb(185, 185, 185);
 }
 .input-container {
     display: flex;
@@ -116,6 +148,28 @@ h1 {
     margin-bottom: 20px;
 }
 
+form > input {
+    border: 0;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    padding: 16px 64px;
+    margin: 32px 64px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgb(185, 185, 185);
+}
+
+
+.ask-login {
+    padding-left: 64px;
+    font-weight: bold;
+}
+
+.ask-login > a {
+    text-decoration: none;
+    color: #596D48;
+}
 
 
 
