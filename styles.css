@@ -75,6 +75,8 @@ ul {
     background-position: center center;
     background-size: cover;
     flex: 3;
+    max-width: 700px;
+    min-width: 500px;
 }
 
 .logo {
